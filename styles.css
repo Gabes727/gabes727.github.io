@@ -1,0 +1,298 @@
+p {
+  font-family: Nunito Sans, Arial, Helvetica, sans-serif;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+body{
+  margin: 0px;
+  margin-bottom: 1000px;
+}
+.header{
+  height: 100x;
+  display: flex;
+  justify-content: space-between;
+  font-family: Nunito Sans;
+  border-bottom-color: rgb(30, 182, 129);
+  border-style: solid;
+  border-top-color: white;
+  border-left-color: white;
+  border-right-color: white;
+  border-width: 1px;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+.left-section{
+  /* background-color: lightblue; */
+  margin-right: 70px;
+  display: flex;
+  align-items: center;
+}
+.middle-section{
+  /* background-color: lightpink; */
+  /* flex: 1; */
+  margin-right: 20px;
+  /* max-width: 500px; */
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  text-align: center;
+}
+.right-section{
+  /* background-color: aqua; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 2px;
+  width: 500px;
+  flex-shrink: 0;
+}
+.breathepoints-logo{
+  height: 100px;
+  margin-top: 20px;
+}
+.breathepoints-logo:hover{
+  cursor: pointer;
+}
+.title{
+  display: flex;
+  font-weight: 700;
+  font-size: 45px;
+  align-items: center;
+  text-align: center;
+  color:   rgb(22, 115, 82);
+}
+.home{
+  font-weight: 600;
+  color:rgb(22, 115, 82);
+}
+.home:hover{
+  cursor: pointer;
+  text-decoration: underline;
+}
+.team{
+    font-weight: 600;
+    color:rgb(22, 115, 82);
+}
+.team:hover{
+  cursor: pointer;
+  text-decoration: underline;
+}
+.points{
+  font-weight: 600;
+  color:rgb(22, 115, 82);
+}
+.points:hover{
+  cursor: pointer;
+  text-decoration: underline;
+}
+.signin{
+  font-weight: 700;
+  color:rgb(22, 115, 82);
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: white;
+  border-color: rgb(22, 115, 82);
+  border-radius: 15px;
+  border-style: solid;
+  border-width: 1.5px;
+}
+.joinnow{
+    font-weight: 700;
+    color:white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: rgb(22, 115, 82);
+    border-color: rgb(22, 115, 82);
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 1.5px;
+  }
+  .joinnow:hover{
+    cursor: pointer;
+    transition: 0.3s;
+    opacity: 0.8;
+    /* color:rgb(22, 115, 82);
+    background-color: white; */
+  }
+  .signin:hover{
+    cursor: pointer;
+    transition: 0.3s;
+    color:white;
+    background-color: rgb(22, 115, 82);
+  }
+  .first-section{
+    margin-top: 50px;
+    margin-left: 275px;
+    margin-right: 275px;
+    display: flex;
+    background-color: rgb(22, 115, 82);
+    height: 550px;
+    border-radius: 25px;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+  }
+  .first-section-title{
+    color: white;
+    margin-left: 20px;
+    font-size: 40px;
+  }
+  .subtitle{
+    color: white;
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: 300;
+    width: 600px;
+  }
+  .subtitle-font-size{
+    font-size: 20px;
+  }
+
+  .download-buttons {
+    margin-left: 20px;
+    margin-top: 150px;
+    display: flex;
+  }
+  .join-bp{
+    display: flex;
+    font-weight: 600;
+    font-size: 17px;
+    color:white;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: rgb(31, 159, 114);
+    border-color: white;
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 1.5px;
+    width: 150px;
+    margin-left: 40px;
+    margin-top: 80px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+  }
+  .join-bp:hover{
+    cursor: pointer;
+    transition: 0.3s;
+    opacity: 0.8;
+  }
+  .download-button {
+    display: inline-flex;
+    align-items: center;
+    margin-right: 10px;
+    padding: 10px 20px;
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 400;
+    border-radius: 8px;
+    background-color: rgb(22, 115, 82);
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
+    flex-shrink: 0;
+  }
+  .download-button img {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    margin-right: 10px;
+  }
+  .tree{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 60%;
+    height: 100%;
+    object-fit: cover;
+    -webkit-mask-image: linear-gradient(to right, transparent, black); /* Apply linear gradient mask */
+    mask-image: linear-gradient(to right, transparent, black);
+    opacity: 1; /* Adjust the desired opacity value */
+  }
+    /* .apple-store-download-button{
+    margin-left: 20px;
+    margin-top: 200px;
+    display: flex;
+    padding: 10px 15px;
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 12px;
+    background-color: rgb(22, 115, 82);
+    border-style: solid;
+    border-color: white;
+    width: 150px;
+  }
+  .apple-store-download-button img{
+    height: 22px;
+    vertical-align: middle;
+    margin-right: 10px;
+    background-color: rgb(22, 115, 82);
+  }  */
+  
+/*
+.hamburger-menu{
+  height: 24px;
+  margin-right: 24px;
+  margin-left: 24px;
+}*/
+
+/*.search-button{
+  height: 40px;
+  width: 66px;
+  background-color: rgb(249, 249, 249);
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(197, 197, 197);
+  margin-left: 0.3px;
+  margin-right: 10px;
+}
+.search-button:hover{
+  opacity: 0.7;
+  cursor: pointer;
+}
+.voice-search-button{
+  height: 40px;
+  width: 40px;
+  border-style: none;
+  background-color: rgb(255, 251, 251);
+  border-radius: 20px;
+  margin-top: 4px;
+  cursor: pointer;
+}
+.voice-search-button:hover{
+  opacity: 0.75;
+}
+.search-bar{
+  flex: 1;
+  height: 36px;
+  border-radius: 2px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(197, 197, 197);
+  padding-left: 10px;
+  font-size: 16px;
+  box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.02);
+  width: 0;
+}
+.search-bar::placeholder{
+  font-size: 15px;
+  font-family: Roboto,Arial;
+}
+.search-icon{
+  height: 25px;
+  margin-top: 4px;
+}
+.Voice-search-icon{
+  height: 25px
+}
+*/
